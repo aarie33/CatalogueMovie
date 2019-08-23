@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="hint_cari">Cari movie</string>
+    <string name="hint_title">Thor</string>
+    <string name="hint_overview">Against his father Odin\'s will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war.</string>
+    <string name="hint_release_date">2012-03-09</string>
+    <string name="poster">Poster</string>
+    <string name="count_result">Hasil ditemukan</string>
+    <string name="overview">Overview</string>
+    <string name="tagline">Tagline</string>
+    <string name="popularity">Popularity</string>
+    <string name="duration">Duration</string>
+    <string name="language">Language</string>
+    <string name="rate_ex">5.0</string>
+    <string name="release_ex">2018-10-12</string>
+    <string name="duration_ex">90</string>
+    <string name="title_cari">Cari Movie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text_1">Tayang sekarang</string>
+    <string name="tab_text_2">Akan tayang</string>
+    <string name="ubah_bahasa">Ubah bahasa</string>
+    <string name="cari_movie">Cari movie</string>
+</resources>

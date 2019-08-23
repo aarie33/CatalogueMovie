@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FavMovie</string>
+    <string name="poster">Poster</string>
+    <string name="hint_release_date">12-2-2018</string>
+    <string name="hint_title">Movie Title</string>
+    <string name="hint_overview">Overview</string>
+</resources>

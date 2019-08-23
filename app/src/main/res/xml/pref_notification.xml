@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notifications_daily_reminder"
+        android:title="@string/daily_reminder" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notifications_release_today"
+        android:title="@string/release_today_reminder" />
+
+    <!--<RingtonePreference-->
+        <!--android:defaultValue="content://settings/system/notification_sound"-->
+        <!--android:dependency="notifications_new_message"-->
+        <!--android:key="notifications_new_message_ringtone"-->
+        <!--android:ringtoneType="notification"-->
+        <!--android:title="@string/pref_title_ringtone" />-->
+
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:dependency="notifications_new_message"-->
+        <!--android:key="notifications_new_message_vibrate"-->
+        <!--android:title="@string/pref_title_vibrate" />-->
+
+</PreferenceScreen>

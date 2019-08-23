@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/half_activity_vertical_margin"
+    tools:context=".fragments.SearchFragment"
+    android:id="@+id/fragment_movie">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_count_result"
+        android:hint="@string/count_result"
+        android:layout_marginTop="@dimen/half_activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_movie"
+            tools:listitem="@layout/movie_item"></android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    </RelativeLayout>
+
+</LinearLayout>
